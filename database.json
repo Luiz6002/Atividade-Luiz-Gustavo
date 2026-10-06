@@ -1,0 +1,47 @@
+{
+  "usuarios": [
+    {
+      "id": 1,
+      "nome": "Administrador",
+      "email": "admin@livraria.com",
+      "senha_hash": "$2a$10$aNyZNO8bDYCvCpWVWj5ILeZRT5PtMjWc0DKiCgEcQOSUHiSFCu2yu",
+      "role": "ADMIN"
+    },
+    {
+      "id": 2,
+      "nome": "Leitor",
+      "email": "leitor@gmail.com",
+      "senha_hash": "$2a$10$QIYcUrBaF9mBFUfoWPdtyuyz.tIxL88V6jWfV/8mAfuWbD0tLG8zq",
+      "role": "USER"
+    }
+  ],
+  "autores": [
+    {
+      "id": 1,
+      "nome": "Machado de Assis",
+      "nacionalidade": "Brasileiro"
+    }
+  ],
+  "livros": [
+    {
+      "id": 1,
+      "titulo": "Dom Casmurro",
+      "ano": 1899,
+      "autor_id": 1,
+      "comentarios": [
+        {
+          "id": 1,
+          "autor_nome": "Leitor",
+          "texto": "Clássico indispensável."
+        }
+      ]
+    },
+    {
+      "id": 1791247058028,
+      "titulo": "Quincas Borba",
+      "ano": "1891",
+      "autor_id": 1,
+      "comentarios": []
+    }
+  ]
+}
